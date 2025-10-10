@@ -1,5 +1,6 @@
 import Lottie from "lottie-react";
 import education from "../assets/lottie/education.json";
+import IMG_20250905_223107 from "../assets/IMG_20250905_223107.jpg"; // Import the new image
 import IIIT_KOTA from "../assets/RSET-Kochi-Logo.png";
 import R_HSS from "../assets/359844570_582310587435057_4183705170198742365_n.jpg"; // 🔁 Make sure you have this logo in assets
 import AOS from "aos";
@@ -50,10 +51,10 @@ const Education = () => {
             </div>
           </div>
 
-          <Lottie
-            animationData={education}
-            loop={true}
-            className="max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
+          <img
+            src={IMG_20250905_223107} // Replace animation with the new image
+            alt="Education"
+            className="max-w-[800px] shadow-xl rounded-xl border border-[#00040f] ml-5"
           />
         </div>
 
@@ -87,9 +88,9 @@ const Education = () => {
             </div>
           </div>
 
-          <Lottie
-            animationData={education}
-            loop={true}
+          <img
+              animationData={education}
+            alt="Education"
             className="max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
           />
         </div>

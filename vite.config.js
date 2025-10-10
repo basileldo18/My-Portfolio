@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/my-portfolio/', // ✅ Correct base path for GitHub Pages
+  base: '/My-Portfolio/', // Case-sensitive!
 });
